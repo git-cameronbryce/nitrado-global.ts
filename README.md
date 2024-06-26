@@ -1,0 +1,1 @@
+# nitrado-global.ts
