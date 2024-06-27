@@ -11,8 +11,8 @@ export async function run({ interaction }: SlashCommandProps) {
   await interaction.deferReply({ ephemeral: false });
 
   const embed = new EmbedBuilder()
-    .setDescription("**Account Setup & Overview**\nThank you for installing this application. Below, you'll have an option to link your [account token](https://imgur.com/a3b9GkZ) for a seamless integration. \n\n**[Partnership & Information](https://nitra.do/obeliskdevelopment)**\nSupport the app by using the link above.\nWe will receive partial commission.")
-    .setFooter({ text: "Note: Contact support if issues persist." })
+    .setDescription("**Account Setup & Overview**\nThank you for installing this application. Below, you'll have an option to link your [account token](https://i.imgur.com/a3b9GkZ.mp4) for a seamless integration.\n\n**Additional Information**\nDesigned for Nitrado. Built without complexity, able to directly connect to any host-able gameserver. Guaranteed uptime.")
+    .setFooter({ text: "Note: Contact support if issues persist.", iconURL: "https://i.imgur.com/6OWyTsr.png" })
     .setImage("https://i.imgur.com/M8ZnsOt.png")
     .setColor(0xffd744)
 
